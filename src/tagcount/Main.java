@@ -50,7 +50,8 @@ public class Main {
         Scanner sc=new Scanner(System.in);
         String url = sc.next(); 
         downloadURL(url); 
-        } catch(Exception ex) {
+        } 
+        catch(Exception ex) {
             ex.printStackTrace(); 
         } 
     }
